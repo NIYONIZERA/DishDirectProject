@@ -1,0 +1,198 @@
+:root {
+    --pricolor: #C1853B;
+    --redcolor: #CC1B1B;
+    --dredcolor: #2F0505;
+    --ddredcolor: #85311B;
+    --blcolor: #000000;
+    --bgcwhite: #eeeeee;
+    --gcolor: #A2E62E;
+}
+
+.fdhero {
+    background-image: url(../images/food4.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.sidetitle {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.listems {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.listems a {
+    padding: 5px 1px;
+    color: var(--blcolor);
+}
+
+.listems a:hover {
+    background-color: var(--bgcwhite);
+    margin: 0px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 20vw 70vw;
+    gap: 50px;
+}
+
+.thesort {
+    margin: 0px 60px;
+}
+
+.sidebar {
+    background-color: var(--pricolor);
+    padding: 20px;
+    
+}
+
+.flexse {
+    /* display: flex; */
+}
+
+.flexse input {
+    outline: none;
+    padding: 5px;
+}
+
+.flexse input[type=submit] {
+    cursor: pointer;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 31vw; 
+    background-color: var(--primary);
+    padding: 50px 30px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--background);
+    margin: 0px 0px 10px 0px;
+}
+
+input, select {
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 7px;
+
+}
+
+select {
+    padding: 10px;
+}
+
+input:active {
+    outline: none;
+}
+
+#unparkform {
+    margin-top: 100px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.small {
+    font-size: 14px;
+    color: black;
+}
+
+.small a {
+    color: var(--ddredcolor);
+    font-size: 18px;
+}
+
+button[type=submit]:hover {
+    background-color: aqua;
+    border: none;
+}
+
+.formbg {
+    width: 60%;
+    margin: 0px auto;
+    background-color: var(--bgcwhite);
+    border-radius: 7px;
+}
+
+.btbt,
+.start,
+.wec,
+.health,
+.faq {
+    padding: 10px 100px;
+}
+
+.faq {
+    margin-bottom: 100px;
+}
+
+.leftind > img {
+    height: 500px;
+}
+
+.indhd {
+    display: flex;
+    gap: 90px;
+    /* justify-content: space-between; */
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 100px 0px;
+}
+
+.imgs > img {
+    height: 50px;
+    cursor: pointer;
+}
+
+/* tables */
+
+#tables {
+    width: 90%;
+    margin: 0 auto 180px auto;
+    border-collapse: collapse;
+}
+
+#tables td, #tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tables tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tables tr:hover {
+    background-color: #ddd;
+}
+
+#tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--pricolor);
+    color: white;
+}
+
+.boxd {
+    padding: 50px;
+}
